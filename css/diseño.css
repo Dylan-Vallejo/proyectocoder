@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+* {
+    margin: 0;
+   padding: 0%;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #730205;
+}
+/**********************HEADER************************/
+.fondo{
+    background-image: url(../images/portadas/fondo1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    filter: contrast(120%);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo__imagen{
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.logo__imagen:hover{
+    width: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.inicio{
+    font-size: 1.25rem;
+    color: white;
+}
+.inicio:hover{
+    color: orangered;
+}
+
+.navbar{
+    font-size:1.25rem;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: orangered;
+}
+.navbar-toggler{
+    background-color: orangered;
+}
+
+/*********************MAIN***************************/
+.titulo-2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+   padding: 2rem;
+}
+.main-1{
+    background-image: url(../images/background/pared-blanca-golpe.jpg);
+    background-size: cover;
+ }
+ .texto-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 2rem;
+    padding-top: 1rem;
+    
+ 
+
+ }
+ .subtittle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.188rem;
+    color:#730205;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+ }
+ .imagen-1{
+    width: 500px;
+    height: 360px;
+    margin: 4rem;
+    border: 2px solid #730205;
+    border-radius: 10px;
+ }
+ .divisor-texto{
+    display: flex;
+    justify-content: space-between;
+ }
+.titulo-3{
+    font-family: 'Tektur', cursive;
+    font-size: 3rem;
+    background-color: #730205;
+    margin-top: 10rem;
+    text-align: center;
+    color: black;
+}
+.div-simbolo{
+    display: flex;
+    justify-content: center;
+}
+.simbolo{
+    margin: 4rem;
+    padding: 2rem;
+}
+.texto-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 3rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+.parrafo-ubi{
+    font-size: 2rem;
+    margin: 4rem;
+}
+.div-mapa{
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+margin-bottom: 3rem;
+width: 65rem;
+}
+/********************FOOTER***********************/
+.footer__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.titulo-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: inline;
+    color: white;
+   
+}
+.titulo-4:hover{
+    color: orangered;
+}
+footer{
+    background-color: black;
+    background-size: cover;
+ 
+}
+.div-footer{
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    height: 3px;
+    width: 50%;
+    margin: 2rem;
+    border-width: 0;
+    background-color:orangered;
+    opacity: 100;
+}
+
+.texto-footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.375rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+.menu-footer{
+    display: flex;
+    margin-bottom: 0%;
+    justify-content: center;
+    gap: 5rem;
+ 
+}
+.menu-item2{
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.href-2{
+    text-decoration: none;
+    color: white;
+    font-size: 1.188rem;
+
+}
+.href-2:hover{
+    color: orangered;
+}
+/***/
+::selection{
+    background-color: #730205;
+}
+
+
+/***********************************************************/
+/**********************pagina diseños***********************/
+body{
+    background-image: url(../images/background/pared-blanca-golpe.jpg);
+}
+.fondo-2{
+    background-image: url(../images/portadas/fondo2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    background-position: center;
+}
+/**********************MAIN************************/
+
+.main__seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.main__titulo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+}
+.main__parrafo{
+    font-size: 2rem;
+}
+.main__titulo:hover{
+    color:#730205;
+}
+/**********************FLEXBOX********************/
+
+.main__seccion-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.main__seccion-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 2rem;
+    
+}
+.main__seccion-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-block: 2rem;
+    
+}
+.main__imagen{
+    width: 22rem;
+    height: 25rem;
+    border: 2px solid;
+    border-color: #730205;
+    border-radius: 64px;
+    
+}
+
+.main__imagen:hover{
+    cursor: pointer;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/********mediaquieris********/
+/***********logo***********/
+@media(max-width:767px){
+    .logo__imagen{
+        width: 150px;
+    }
+    .logo__imagen:hover{
+        width: 160px;
+    }
+}
+/******mainimagen-texto******/
+@media(max-width:1000px){
+    .divisor-texto{
+        flex-direction: column;
+    }
+  
+}
+
+@media(max-width:600px){
+    .imagen-1{
+        margin-left: 1px;
+        max-width: 100%;
+    }
+}
+@media(max-width:470px){
+    .titulo-2{
+        padding: 10px;
+        font-size: 3rem;
+    }
+    .subtittle{
+        padding: 10px;
+        
+    }
+    .texto-1{
+        margin-left: 10px;
+    }
+}
+@media(max-width:380px){
+    .titulo-2{
+      font-size: 2rem;
+    }
+    .subtittle{
+        font-size: 1.50rem;
+    }
+}
+/*******footer*******/
+@media(max-width:960px){
+    .menu-footer{
+        gap: 20px;
+    }
+}
+@media(max-width:780px){
+    .menu-footer{
+        gap: 5px;
+    }
+}
+@media(max-width:760px){
+    .menu-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+}
+@media(max-width:600px){
+    .texto-2{
+        margin: 0px;
+    }
+}
+@media(max-width:360px){
+    .menu-footer{
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+}
+/*****pagina de diseños(media)****/
+
+@media(max-width:560px){
+    .fondo-2{
+       background-position: 65% ;
+    }
+}
+
+
+@media(max-width:1189px){
+    .main__seccion-2{
+        gap: 15px;
+    }
+    .main__seccion-3{
+        gap: 15px;
+    }
+    .main__seccion-4{
+        gap: 15px;
+    }
+}
+@media(max-width:1096px){
+    .main__imagen{
+        width: 18rem;
+        height: 20rem;
+    }
+}
+@media(max-width:905px){
+    .main__seccion-2{
+        flex-direction: column;
+    }
+    .main__seccion-3{
+        flex-direction: column;
+    }
+    .main__seccion-4{
+        flex-direction: column;
+    }
+    .main__imagen{
+        width: 35rem;
+        height: 26rem;
+    }
+}
+@media(max-width:568px){
+    .main__imagen{
+        width: 28rem;
+        height: 23rem;
+    }
+}
+@media(max-width:463px){
+    .main__imagen{
+        width: 20rem;
+        height: 20rem;
+    }
+}
+@media(max-width:350px){
+    .main__imagen{
+        width: 15rem;
+        height: 15rem
+        ;
+    }
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 * {
     margin: 0;
    padding: 0%;
@@ -195,7 +196,7 @@ footer{
 }
 
 ::selection{
-    background-color: #730205;
+    background-color: #7302069a;
 }
 .div-footer2{
     display: flex;
@@ -299,7 +300,7 @@ body{
     padding-block: 2rem;
     color: #730205;
 }
-/*******tatuajes*******/
+
 .subtitulo__seccionmain-1{
     padding-left: 2rem;
     font-size: 2rem;
@@ -351,7 +352,8 @@ max-width: 100%;
 
 /******pircings*******/
 .subtitulo__seccionmain-3{
-    padding-left: 2rem;
+    padding-inline: 2rem;
+    margin-top: 10rem;
     font-size: 2rem;
 }
 .parrafo__seccionmain-3{
@@ -413,39 +415,89 @@ max-width: 100%;
     padding-block: 2rem;
     color: #730205;
 }
-.parrafo__main-1{
 
-    font-size: 1.25rem;
-    margin: 2rem;
-    border-radius: 10px;
+.img10{
+    max-width: 100%;
+    min-height: 100vh;
+}
+.img__div-2{
+    width: 50%;
 }
 .section__main-2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(255 70 3 / 68%);
-    margin: 2.5rem;
-    border-radius: 50px;
+    gap: 13rem;
 }
-.img__section-main{
-    width: 30rem;
-    padding: 2rem;
-    border-radius: 50px;
+.parrafo__div-2{
+    font-family: 'Suez One', serif;
+    font-size: 4rem;
+    color: #730205;
 }
-.section__main-3{
+.parrafo2__div-2{
+    font-family: 'Suez One', serif;
+    font-size: 1.563rem;
+    color: orangered;
+}
+.div__main-2{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(109, 108, 108, 0.68);
-    margin: 2.5rem;
-    border-radius: 50px;
+    flex-direction: column;
+    gap: 1px;
 }
 
-.img__section-main4{
-    width: 40rem;
-    padding: 2rem;
-    border-radius: 50px;
+
+
+
+
+.section__main-3{
+    margin-top: 5rem;
 }
+.img__div-3{
+    width: 50%;
+}
+.div__main-3{
+    display: flex;
+    align-items: center;
+}
+.parrafo__div-3{
+    font-family: 'Suez One', serif;
+    font-size: 1.25rem;
+    margin: 3rem;
+}
+
+
+
+
+
+.section__main-4{
+    margin-top: 5rem;
+}
+.img__div-4{
+    width: 50%;
+}
+.div__main-4{
+    display: flex;
+    align-items: center;
+}
+.parrafo__div-4{
+    font-family: 'Suez One', serif;
+    font-size: 1.25rem;
+    margin: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -505,6 +557,11 @@ max-width: 100%;
     align-items: center;
     gap: 3rem;
 
+}
+
+.div__form{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -607,7 +664,7 @@ max-width: 100%;
         padding-right: 1px;
     }
 }
-/*****pagina de diseños(media queries)****/
+/***********PAGINA DE DISEÑOS**********/
 
 @media(max-width:560px){
     .fondo-2{
@@ -665,5 +722,156 @@ max-width: 100%;
         width: 15rem;
         height: 15rem
         ;
+    }
+}
+
+/*************PAGINA DE CUIDADOS*************/
+
+
+@media(max-width:930px){
+    .seccion__main-2{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-areas: 
+            "img2   img3"
+            "lista  lista";
+    }
+    .img1{
+        display: none;
+    }
+    .seccion__main-4{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "pirc2   pirc3"
+            "lista2  lista2";
+    }
+    .pirc1{
+        display: none;
+    }
+}
+@media(max-width:650px){
+    .seccion__main-2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "img2"
+            "lista";
+    }
+    .img3{
+        display: none;
+    }
+    .seccion__main-4{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "pirc2"
+            "lista2";
+    }
+    .pirc3{
+        display: none;
+    }
+}
+
+
+/**************PAGINA SOBRE NOSOTROS**********/
+@media(max-width:1105px){
+    .section__main-2{
+        flex-direction: column;
+    }
+    .div__main-3{
+        flex-direction: column;
+    }
+    .div__main-4{
+        flex-direction: column;
+    }
+    .img10{
+        width: 80%;
+    }
+}
+@media(max-width:825px){
+    .img10{
+        width: 90%;
+    }
+}
+@media(max-width:535px){
+    .img10{
+        width: 100%;
+        min-height: 25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************PAGINA DE CONTACTO*********/
+@media(max-width:955px){
+    .seccion__form{
+        flex-direction: column;
+    }
+    .div__form{
+        align-items: center;
+    }
+
+    
+}
+
+@media(max-width:665px){
+    .input-group{
+        width: 35rem;
+    }
+    .mb-3{
+        width: 35rem;
+    }
+    .form-floating{
+        width: 35rem;
+    }
+}
+
+@media(max-width:584px){
+    .input-group{
+        width: 30rem;
+    }
+    .mb-3{
+        width: 30rem;
+    }
+    .form-floating{
+        width: 30rem;
+    }
+}
+@media(max-width:510px){
+    .input-group{
+        width: 25rem;
+    }
+    .mb-3{
+        width: 25rem;
+    }
+    .form-floating{
+        width: 25rem;
+    }
+    .div__texto-1{
+        padding-right: 2rem;
+    }
+}
+@media(max-width:423px){
+    .input-group{
+        width: 18rem;
+    }
+    .mb-3{
+        width: 18rem;
+    }
+    .form-floating{
+        width: 18rem;
     }
 }

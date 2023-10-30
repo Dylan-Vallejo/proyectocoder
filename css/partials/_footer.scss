@@ -1,0 +1,76 @@
+/**********footer********/
+footer{
+    background-color: black;
+    background-size: cover;
+
+    .footer__titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        
+        .titulo-4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            display: inline;
+            color: white;
+
+            &:hover{
+                color: $colorprincipal;
+            }
+        }
+    }
+    .div-footer{
+        display: flex;
+        justify-content: center;
+
+        .hr{
+            height: 3px;
+            width: 50%;
+            margin: 2rem;
+            border-width: 0;
+            background-color:$colorprincipal;
+            opacity: 100;
+        }
+    }
+    .menu-footer{
+        display: flex;
+        margin-bottom: 0%;
+        padding-bottom: 2rem;
+        padding-right: 2rem;
+        justify-content: center;
+        gap: 4.5rem;
+
+        .menu-item2{
+            list-style-type: none;
+            text-decoration: none;
+            margin-bottom: 2rem;
+
+            .href-2{
+                text-decoration: none;
+                color: white;
+                font-size: 1.188rem;
+                transition: 0.5s;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+        }
+    }
+    .div-footer2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .divcoder{
+            color: rgb(83, 82, 82);
+        }
+        .div-copy{
+            color: $colorprincipal;
+        }
+    }
+}
+::selection{
+    background-color: #7302069a;
+}

@@ -1,0 +1,364 @@
+/********meadiaqueries********/
+/***********logo***********/
+@media(max-width:767px){
+    .header-1 .logo .logo__imagen{
+        width: 150px;
+    }
+    .header-1 .logo .logo__imagen:hover{
+        width: 160px;
+    }
+    .header-2 .logo .logo__imagen{
+        width: 150px;
+    }
+    .header-2 .logo .logo__imagen:hover{
+        width: 160px;
+    }
+    .header-3 .logo .logo__imagen{
+        width: 150px;
+    }
+    .header-3 .logo .logo__imagen:hover{
+        width: 160px;
+    }
+    .header-4 .logo .logo__imagen{
+        width: 150px;
+    }
+    .header-4 .logo .logo__imagen:hover{
+        width: 160px;
+    }
+    .header-5 .logo .logo__imagen{
+        width: 150px;
+    }
+    .header-5 .logo .logo__imagen:hover{
+        width: 160px;
+    }
+}
+/********main pagina inicio*********/
+@media(max-width:1000px){
+    .divisor-texto{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px){
+    .main-1 .seccion-1 .divisor-texto .imagen-1{
+        margin-left: 1px;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:470px){
+    .main-1 .seccion-1 .divisor-texto1 .titulo-2{
+        padding: 10px;
+        font-size: 3rem;
+    }
+    .main-1 .seccion-1 .divisor-texto2 .subtittle{
+        padding: 10px;
+        
+    }
+    .main-1 .seccion-1 .divisor-texto .texto-1{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:380px){
+    .main-1 .seccion-1 .divisor-texto1 .titulo-2{
+      font-size: 2rem;
+    }
+    .main-1 .seccion-1 .divisor-texto2 .subtittle{
+        font-size: 1.50rem;
+    }
+}
+
+
+ /********footer*********/
+ @media(max-width:960px){
+    footer .menu-footer{
+        gap: 20px;
+    }
+}
+@media(max-width:780px){
+    footer .menu-footer{
+        gap: 5px;
+    }
+}
+@media(max-width:760px){
+    footer .menu-footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+}
+@media(max-width:360px){
+    footer .menu-footer{
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 1px;
+    }
+}
+
+/***********pagina de diseños*********/
+
+@media(max-width:560px){
+    .header-2{
+       background-position: 65% ;
+    }
+}
+
+@media(max-width:1189px){
+    .main-2 .main__seccion-2{
+        gap: 15px;
+    }
+    .main-2 .main__seccion-3{
+        gap: 15px;
+    }
+    .main-2 .main__seccion-4{
+        gap: 15px;
+    }
+}
+
+@media(max-width:1096px){
+    .main-2 .main__seccion-2 .main__div .main__imagen{
+        width: 18rem;
+        height: 20rem;
+    }
+    .main-2 .main__seccion-3 .main__div .main__imagen{
+        width: 18rem;
+        height: 20rem;
+    }
+    .main-2 .main__seccion-4 .main__div .main__imagen {
+        width: 18rem;
+        height: 20rem;
+    }
+}
+
+@media(max-width:905px){
+    .main-2 .main__seccion-2{
+        flex-direction: column;
+    }
+    .main-2 .main__seccion-3{
+        flex-direction: column;
+    }
+    .main-2 .main__seccion-4{
+        flex-direction: column;
+    }
+    .main-2 .main__seccion-2 .main__div .main__imagen{
+        width: 35rem;
+        height: 26rem;
+    }
+    .main-2 .main__seccion-3 .main__div .main__imagen{
+        width: 35rem;
+        height: 26rem;
+    }
+    .main-2 .main__seccion-4 .main__div .main__imagen {
+        width: 35rem;
+        height: 26rem;
+    }
+}
+
+@media(max-width:568px){
+    .main-2 .main__seccion-2 .main__div .main__imagen{
+        width: 28rem;
+        height: 23rem;
+    }
+    .main-2 .main__seccion-3 .main__div .main__imagen{
+        width: 28rem;
+        height: 23rem;
+    }
+    .main-2 .main__seccion-4 .main__div .main__imagen {
+        width: 28rem;
+        height: 23rem;
+    }
+}
+
+@media(max-width:463px){
+    .main-2 .main__seccion-2 .main__div .main__imagen{
+        width: 20rem;
+        height: 20rem;
+    }
+    .main-2 .main__seccion-3 .main__div .main__imagen{
+        width: 20rem;
+        height: 20rem;
+    }
+    .main-2 .main__seccion-4 .main__div .main__imagen {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media(max-width:350px){
+    .main-2 .main__seccion-2 .main__div .main__imagen{
+        width: 15rem;
+        height: 15rem
+        ;
+    }
+    .main-2 .main__seccion-3 .main__div .main__imagen{
+        width: 15rem;
+        height: 15rem
+        ;
+    }
+    .main-2 .main__seccion-4 .main__div .main__imagen {
+        width: 15rem;
+        height: 15rem
+        ;
+    }
+}
+
+/************pagina de cuidados***********/
+@media(max-width:930px){
+    .main-3 .seccion__main-2{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-areas: 
+            "img2   img3"
+            "lista  lista";
+    }
+    .main-3 .seccion__main-2 .img1{
+        display: none;
+    }
+    .main-3 .seccion__main-4{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "pirc2   pirc3"
+            "lista2  lista2";
+    }
+    .main-3 .seccion__main-4 .pirc1{
+        display: none;
+    }
+}
+
+@media(max-width:650px){
+    .main-3 .seccion__main-2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "img2"
+            "lista";
+    }
+    .main-3 .seccion__main-2 .img3{
+        display: none;
+    }
+    .main-3 .seccion__main-4{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "pirc2"
+            "lista2";
+    }
+    .main-3 .seccion__main-4 .pirc3{
+        display: none;
+    }
+}
+
+/*********pagina sobre nosotros*********/
+@media(max-width:1105px){
+    .main-4 .section__main-2{
+        flex-direction: column;
+    }
+    .main-4 .section__main-3 .div__main-3{
+        flex-direction: column;
+    }
+    .main-4 .section__main-4 .div__main-4{
+        flex-direction: column;
+    }
+    .main-4 .section__main-2 .img10{
+        width: 80%;
+    }
+    .main-4 .section__main-3 .div__main-3 .img__div-3{
+        width: 80%;
+    }
+    .main-4 .section__main-4 .div__main-4 .img__div-4{
+        width: 80%;
+    }
+}
+@media(max-width:825px){
+    .main-4 .section__main-2 .img10{
+        width: 90%;
+    }
+    .main-4 .section__main-3 .div__main-3 .img__div-3{
+        width: 90%;
+    }
+    .main-4 .section__main-4 .div__main-4 .img__div-4{
+        width: 90%;
+    }
+}
+@media(max-width:535px){
+    .main-4 .section__main-2 .img10{
+        width: 100%;
+        min-height: 25rem;
+    }
+    .main-4 .section__main-3 .div__main-3 .img__div-3{
+        width: 100%;
+        min-height: 25rem;
+    }
+    .main-4 .section__main-4 .div__main-4 .img__div-4{
+        width: 100%;
+        min-height: 25rem;
+    }
+    .main-4 .section__main-2 .div__main-2:hover{
+        transform: translate(0px);
+    }
+}
+
+/***********pagina de contacto***********/
+@media(max-width:955px){
+    .main-5 .seccion__form{
+        flex-direction: column;
+    }
+    .main-5 .seccion__form-2 .div__form{
+        align-items: center;
+    }
+}
+
+@media(max-width:665px){
+    .main-5 .seccion__form .formulario .input-group{
+        width: 35rem;
+    }
+    .main-5 .seccion__form .formulario .mb-3{
+        width: 35rem;
+    }
+    .main-5 .seccion__form .formulario .form-floating{
+        width: 35rem;
+    }
+}
+
+@media(max-width:584px){
+    .main-5 .seccion__form .formulario .input-group{
+        width: 30rem;
+    }
+    .main-5 .seccion__form .formulario .mb-3{
+        width: 30rem;
+    }
+    .main-5 .seccion__form .formulario .form-floating{
+        width: 30rem;
+    }
+}
+
+@media(max-width:510px){
+    .main-5 .seccion__form .formulario .input-group{
+        width: 25rem;
+    }
+    .main-5 .seccion__form .formulario .mb-3{
+        width: 25rem;
+    }
+    .main-5 .seccion__form .formulario .form-floating{
+        width: 25rem;
+    }
+    .main-5 .sections__1 .div__sections-1 .div__texto-1{
+        padding-right: 2rem;
+    }
+}
+
+@media(max-width:423px){
+    .main-5 .seccion__form .formulario .input-group{
+        width: 18rem;
+    }
+    .main-5 .seccion__form .formulario .mb-3{
+        width: 18rem;
+    }
+    .main-5 .seccion__form .formulario .form-floating{
+        width: 18rem;
+    }
+}

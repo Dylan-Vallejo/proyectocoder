@@ -1,0 +1,350 @@
+/********header pagina inicio********/
+.header-1{
+    background-image: url(../images/portadas/fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    filter: contrast(120%);
+
+    .navbar{
+        font-size:1.25rem;
+        background-color: rgba(0, 0, 0, 0.808);
+
+        .container-fluid{
+
+            .inicio{
+                font-size: 1.25rem;
+                color: white;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+            .navbar-toggler{
+                background-color: $colorprincipal;
+            }
+            .navbar-nav{
+
+                .nav-item{
+                    
+                    .nav-link{
+                        color: white;
+
+                        &:hover{
+                            color: $colorprincipal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .logo__imagen{
+            width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: 1.2s;
+
+            &:hover{
+                width: 250px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+        .roll-in-left {
+            -webkit-animation: roll-in-left 1s ease-out both;
+                    animation: roll-in-left 1s ease-out both;
+        }
+    }
+}
+/************pagina de diseños**********/
+.header-2{
+    background-image: url(../images/portadas/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    background-position: center;
+
+    .navbar{
+        font-size:1.25rem;
+        background-color: rgba(0, 0, 0, 0.808);
+
+        .container-fluid{
+
+            .inicio{
+                font-size: 1.25rem;
+                color: white;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+            .navbar-toggler{
+                background-color: $colorprincipal;
+            }
+            .navbar-nav{
+
+                .nav-item{
+                    
+                    .nav-link{
+                        color: white;
+
+                        &:hover{
+                            color: $colorprincipal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .logo__imagen{
+            width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: 1.2s;
+
+            &:hover{
+                width: 250px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+        .roll-in-left {
+            -webkit-animation: roll-in-left 1s ease-out both;
+                    animation: roll-in-left 1s ease-out both;
+        }
+    }
+}
+/**************header pagina de cuidados********/
+.header-3{
+    background-image: url(../images/portadas/fondo3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    background-position: center;
+
+    .navbar{
+        font-size:1.25rem;
+        background-color: rgba(0, 0, 0, 0.808);
+
+        .container-fluid{
+
+            .inicio{
+                font-size: 1.25rem;
+                color: white;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+            .navbar-toggler{
+                background-color: $colorprincipal;
+            }
+            .navbar-nav{
+
+                .nav-item{
+                    
+                    .nav-link{
+                        color: white;
+
+                        &:hover{
+                            color: $colorprincipal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .logo__imagen{
+            width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: 1.2s;
+
+            &:hover{
+                width: 250px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+        .roll-in-left {
+            -webkit-animation: roll-in-left 1s ease-out both;
+                    animation: roll-in-left 1s ease-out both;
+        }
+    }
+}
+
+/*********header pagina sobre nosotros********/
+.header-4{
+    background-image: url(../images/portadas/fondo6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    background-position: center;
+
+    .navbar{
+        font-size:1.25rem;
+        background-color: rgba(0, 0, 0, 0.808);
+
+        .container-fluid{
+
+            .inicio{
+                font-size: 1.25rem;
+                color: white;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+            .navbar-toggler{
+                background-color: $colorprincipal;
+            }
+            .navbar-nav{
+
+                .nav-item{
+                    
+                    .nav-link{
+                        color: white;
+
+                        &:hover{
+                            color: $colorprincipal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .logo__imagen{
+            width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: 1.2s;
+
+            &:hover{
+                width: 250px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+        .roll-in-left {
+            -webkit-animation: roll-in-left 1s ease-out both;
+                    animation: roll-in-left 1s ease-out both;
+        }
+    }
+}
+/*********header pagina contactanos*********/
+.header-5{
+    background-image: url(../images/portadas/fondo5.0.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    background-position: center;
+
+    .navbar{
+        font-size:1.25rem;
+        background-color: rgba(0, 0, 0, 0.808);
+
+        .container-fluid{
+
+            .inicio{
+                font-size: 1.25rem;
+                color: white;
+
+                &:hover{
+                    color: $colorprincipal;
+                }
+            }
+            .navbar-toggler{
+                background-color: $colorprincipal;
+            }
+            .navbar-nav{
+
+                .nav-item{
+                    
+                    .nav-link{
+                        color: white;
+
+                        &:hover{
+                            color: $colorprincipal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .logo__imagen{
+            width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: 1.2s;
+
+            &:hover{
+                width: 250px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+        .roll-in-left {
+            -webkit-animation: roll-in-left 1s ease-out both;
+                    animation: roll-in-left 1s ease-out both;
+        }
+    }
+}
+@-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }

@@ -11,27 +11,39 @@
         font-size:1.25rem;
         background-color: rgba(0, 0, 0, 0.808);
 
+
         .container-fluid{
-
-            .inicio{
-                font-size: 1.25rem;
-                color: white;
-
-                &:hover{
-                    color: $colorprincipal;
-                }
+            
+            .icono__nav{
+                margin-left: 1rem;
+                width: 40px;
+                height: 40px;
             }
+            .flicker-in-1 {
+                -webkit-animation: flicker-in-1 2s linear both;
+                        animation: flicker-in-1 2s linear both;
+            }
+            
             .navbar-toggler{
                 background-color: $colorprincipal;
             }
-            .navbar-nav{
+            .navbar-collapse{
+                justify-content: flex-end;
+                
+                .navbar-nav{
+                    margin-right: 1rem;
+                    gap: 2rem;
 
-                .nav-item{
-                    
-                    .nav-link{
-                        color: white;
-
-                        &:hover{
+                    .nav-item{
+                        
+                        .nav-link{                 
+                            color: white;
+    
+                            &:hover{
+                                color: $colorprincipal;
+                            }
+                        }
+                        .link__inicio{
                             color: $colorprincipal;
                         }
                     }
@@ -78,26 +90,37 @@
 
         .container-fluid{
 
-            .inicio{
-                font-size: 1.25rem;
-                color: white;
-
-                &:hover{
-                    color: $colorprincipal;
-                }
+            .icono__nav{
+                margin-left: 1rem;
+                width: 40px;
+                height: 40px;
+            }
+            .flicker-in-1 {
+                -webkit-animation: flicker-in-1 2s linear both;
+                        animation: flicker-in-1 2s linear both;
             }
             .navbar-toggler{
                 background-color: $colorprincipal;
             }
-            .navbar-nav{
-
-                .nav-item{
+            .navbar-collapse{
+                justify-content: flex-end;
+                
+                .navbar-nav{
+                    margin-right: 1rem;
+                    gap: 2rem;
                     
-                    .nav-link{
-                        color: white;
 
-                        &:hover{
-                            color: $colorprincipal;
+                    .nav-item{
+                        
+                        .nav-link{                 
+                            color: white;
+    
+                            &:hover{
+                                color: $colorprincipal;
+                            }
+                        }
+                        .link__galeria{
+                            color: $colorprincipal; 
                         }
                     }
                 }
@@ -143,26 +166,37 @@
 
         .container-fluid{
 
-            .inicio{
-                font-size: 1.25rem;
-                color: white;
+            .icono__nav{
+                margin-left: 1rem;
+                width: 40px;
+                height: 40px;
 
-                &:hover{
-                    color: $colorprincipal;
-                }
+            }
+            .flicker-in-1 {
+                -webkit-animation: flicker-in-1 2s linear both;
+                        animation: flicker-in-1 2s linear both;
             }
             .navbar-toggler{
                 background-color: $colorprincipal;
             }
-            .navbar-nav{
+            .navbar-collapse{
+                justify-content: flex-end;
+                
+                .navbar-nav{
+                    margin-right: 1rem;
+                    gap: 2rem;
 
-                .nav-item{
-                    
-                    .nav-link{
-                        color: white;
-
-                        &:hover{
-                            color: $colorprincipal;
+                    .nav-item{
+                        
+                        .nav-link{                 
+                            color: white;
+    
+                            &:hover{
+                                color: $colorprincipal;
+                            }
+                        }
+                        .link__cuidados{
+                            color: $colorprincipal; 
                         }
                     }
                 }
@@ -209,26 +243,36 @@
 
         .container-fluid{
 
-            .inicio{
-                font-size: 1.25rem;
-                color: white;
-
-                &:hover{
-                    color: $colorprincipal;
-                }
+            .icono__nav{
+                margin-left: 1rem;
+                width: 40px;
+                height: 40px;
+            }
+            .flicker-in-1 {
+                -webkit-animation: flicker-in-1 2s linear both;
+                        animation: flicker-in-1 2s linear both;
             }
             .navbar-toggler{
                 background-color: $colorprincipal;
             }
-            .navbar-nav{
+            .navbar-collapse{
+                justify-content: flex-end;
+                
+                .navbar-nav{
+                    margin-right: 1rem;
+                    gap: 2rem;
 
-                .nav-item{
-                    
-                    .nav-link{
-                        color: white;
-
-                        &:hover{
-                            color: $colorprincipal;
+                    .nav-item{
+                        
+                        .nav-link{                 
+                            color: white;
+    
+                            &:hover{
+                                color: $colorprincipal;
+                            }
+                        }
+                        .link__sobrenosotros{
+                            color: $colorprincipal; 
                         }
                     }
                 }
@@ -274,26 +318,36 @@
 
         .container-fluid{
 
-            .inicio{
-                font-size: 1.25rem;
-                color: white;
-
-                &:hover{
-                    color: $colorprincipal;
-                }
+            .icono__nav{
+                margin-left: 1rem;
+                width: 40px;
+                height: 40px;
+            }
+            .flicker-in-1 {
+                -webkit-animation: flicker-in-1 2s linear both;
+                        animation: flicker-in-1 2s linear both;
             }
             .navbar-toggler{
                 background-color: $colorprincipal;
             }
-            .navbar-nav{
+            .navbar-collapse{
+                justify-content: flex-end;
+                
+                .navbar-nav{
+                    margin-right: 1rem;
+                    gap: 2rem;
 
-                .nav-item{
-                    
-                    .nav-link{
-                        color: white;
-
-                        &:hover{
-                            color: $colorprincipal;
+                    .nav-item{
+                        
+                        .nav-link{                 
+                            color: white;
+    
+                            &:hover{
+                                color: $colorprincipal;
+                            }
+                        }
+                        .link__contacto{
+                            color: $colorprincipal; 
                         }
                     }
                 }
@@ -305,12 +359,15 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        
 
         .logo__imagen{
             width: 200px;
             border-radius: 50%;
             overflow: hidden;
             transition: 1.2s;
+            
+            
 
             &:hover{
                 width: 250px;
@@ -348,3 +405,195 @@
       opacity: 1;
     }
   }
+
+@-webkit-keyframes flicker-in-1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flicker-in-1 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

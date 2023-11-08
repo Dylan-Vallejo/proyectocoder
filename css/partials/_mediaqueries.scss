@@ -1,41 +1,106 @@
 /********meadiaqueries********/
 /***********logo***********/
 @media(max-width:767px){
+    .header-1 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1rem;
+    }
+    .item-inicio{
+        display: none;
+    }
+    .header-1 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1px;
+    }
     .header-1 .logo .logo__imagen{
         width: 150px;
+        margin-bottom: 2rem;
     }
     .header-1 .logo .logo__imagen:hover{
         width: 160px;
     }
+    .header-2 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1rem;
+    }
+    .item-galeria{
+        display: none;
+    }
+    .header-2 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1px;
+    }
     .header-2 .logo .logo__imagen{
         width: 150px;
+        margin-bottom: 2rem;
     }
     .header-2 .logo .logo__imagen:hover{
         width: 160px;
     }
+    .header-3 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1rem;
+    }
+    .item-cuidados{
+        display: none;
+    }
+    .header-3 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1px;
+    }
     .header-3 .logo .logo__imagen{
         width: 150px;
+        margin-bottom: 2rem;
     }
     .header-3 .logo .logo__imagen:hover{
         width: 160px;
     }
+    .header-4 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1rem;
+    }
+    .item-sobrenosotros{
+        display: none;
+    }
+    .header-4 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1px;
+    }
     .header-4 .logo .logo__imagen{
         width: 150px;
+        margin-bottom: 2rem;
     }
     .header-4 .logo .logo__imagen:hover{
         width: 160px;
     }
+    .header-5 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1rem;
+    }
+    .item-contacto{
+        display: none;
+    }
+    .header-5 .navbar .container-fluid .navbar-collapse .navbar-nav{
+        gap: 1px;
+    }
     .header-5 .logo .logo__imagen{
         width: 150px;
+        margin-bottom: 2rem;
     }
     .header-5 .logo .logo__imagen:hover{
         width: 160px;
-    }
+    } 
 }
 /********main pagina inicio*********/
-@media(max-width:1000px){
+@media(max-width:1400px){
+    .main-1 .seccion-1 .divisor-texto .carousel-fade{
+        width: 200%;
+        height: 22.6rem;
+    }
+    .main-1 .seccion-1 .divisor-texto .carousel-fade .d-block {
+        height: 22.6rem;
+    }
+}
+@media(max-width:1005px){
     .divisor-texto{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-1 .seccion-1 .divisor-texto .carousel-fade {
+        width: 30rem;
+        height: 22.5rem;
     }
 }
 
@@ -45,7 +110,15 @@
         max-width: 100%;
     }
 }
-
+@media(max-width:500px){
+    .main-1 .seccion-1 .divisor-texto .carousel-fade {
+        width: 23rem;
+        height: 22.5rem;
+    }
+    .main-1 .seccion-1 .divisor-texto .carousel-fade:hover{
+        transform: none;
+    }
+}
 @media(max-width:470px){
     .main-1 .seccion-1 .divisor-texto1 .titulo-2{
         padding: 10px;
@@ -136,12 +209,15 @@
 @media(max-width:905px){
     .main-2 .main__seccion-2{
         flex-direction: column;
+        gap: 2rem;
     }
     .main-2 .main__seccion-3{
         flex-direction: column;
+        gap: 2rem;
     }
     .main-2 .main__seccion-4{
         flex-direction: column;
+        gap: 2rem;
     }
     .main-2 .main__seccion-2 .main__div .main__imagen{
         width: 35rem;
@@ -206,6 +282,17 @@
 }
 
 /************pagina de cuidados***********/
+@media(max-width:1400px){
+    .main-3 .seccion__main-4 .pirc1{
+        height: 45rem;
+    }
+    .main-3 .seccion__main-4 .pirc2{
+        height: 27rem;
+    }
+    .main-3 .seccion__main-4 .pirc3{
+        height: 27rem;
+    }
+}
 @media(max-width:930px){
     .main-3 .seccion__main-2{
         grid-template-columns: 2fr 2fr;
